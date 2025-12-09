@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline; /* Ustawia elementy listy w jednej linii */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Usuwa podkreślenie z linków */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Płynne przejście koloru */
+}
+
+nav ul li a:hover {
+    background-color: #777; /* Zmienia tło po najechaniu myszą */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
